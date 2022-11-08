@@ -1,0 +1,1172 @@
+@charset "UTF-8";
+/*
+	Gris oscuro -> rgb(148, 150, 154)
+	Gris superoscuro -> rgb(33, 37, 41)
+	Blanco azulado -> rgb(237, 240, 246)
+	Azul ministerio -> rgb(47, 57, 69, 1)
+	Azul ministerio claro -> rgb(60, 69, 87)
+	Azul ministerio oscuro -> rgb(37, 43, 54)
+	Negro -> rgb(7, 9, 11)
+*/
+
+* {
+	margin: 0rem;
+	padding: 0rem;
+	font-family: "Helvetica";
+	/* Posibles fuentes: Verdana, Helvetica */
+	font-weight: bold;
+	font-size: 0.9rem;
+	color: rgb(33, 37, 41);
+}
+
+body {
+	background: rgb(255, 255, 255);
+}
+
+.navbar {
+	margin: 0rem -0.75rem;
+	padding: 0.5rem 0.75rem;
+	background: rgb(37, 43, 54);
+	position: fixed !important;
+	width: 100%;
+	height: 2.6rem;
+	top: 0rem;
+	z-index: 999;
+}
+
+.logo-s {
+	text-decoration: none;
+	color: rgb(237, 240, 246);
+	text-align: center;
+	margin-left: 1rem;
+}
+
+.logo-s:hover {
+	color: rgb(237, 240, 246);
+}
+
+.imglogo {
+	margin: 0.75rem 1rem 1rem 0rem;
+	height: 1rem;
+	width: auto;
+}
+
+.wbody {
+	margin: 3rem 0rem 2rem;
+}
+
+footer {
+	margin: 1rem 0rem 0rem;
+	padding: 0.5rem 0.75rem;
+	background: rgb(37, 43, 54);
+	position: fixed;
+	width: 100%;
+	bottom: 0rem;
+	z-index: 999;
+}
+
+footer p {
+	margin: 0rem;
+	text-align: center;
+	font-size: 0.75rem;
+	color: rgb(237, 240, 246);
+}
+
+#login {
+	padding: 1.5rem 1rem;
+	margin: 9% auto 0rem;
+	border: 1px solid rgb(37, 43, 54);
+	border-radius: 0.25rem;
+	background: rgb(237, 240, 246);
+}
+
+hr {
+	border: 1px solid rgb(37, 43, 54) !important;
+}
+
+.encabezado {
+	font-size: 1.5rem;
+}
+
+.encabezadodash {
+	border: 1px solid rgba(7, 9, 11, 0.25);
+	border-radius: 0.25rem;
+	padding: 0.25rem 1rem;
+	margin-bottom: 1rem;
+	font-size: 1.15rem;
+	color: rgb(37, 43, 54);
+	background: rgb(237, 240, 246);
+}
+
+.encabezadodash a {
+	text-decoration: none;
+	color: rgb(37, 43, 54);
+	font-size: 1.15rem;
+}
+
+.encabezadodash a:hover {
+	text-decoration: underline;
+}
+
+.subencab {
+	font-size: 0.95rem;
+}
+
+.subencab a {
+	font-size: 0.95rem;
+}
+
+#login .encabezado {
+	text-align: center;
+}
+
+.in-grp {
+	margin: 0rem auto 1rem;
+}
+
+.input-group span {
+	background: rgb(37, 43, 54);
+}
+
+.sfiltro span {
+	background: rgb(105, 74, 27) !important;
+}
+
+i {
+	color: rgb(237, 240, 246);
+}
+
+.mostrarContra i {
+	color: rgb(7, 9, 11);
+}
+
+
+a:hover i {
+	color: rgb(37, 43, 54);
+}
+
+a:focus i {
+	color: rgb(37, 43, 54);
+}
+
+.sfiltro:hover i {
+	color: rgb(237, 240, 246);
+}
+
+.sfiltro:focus i {
+	color: rgb(237, 240, 246);
+}
+
+button:hover .iconmen i {
+	color: rgb(237, 240, 246) !important;
+}
+
+button:focus .iconmen i {
+	color: rgb(237, 240, 246) !important;
+}
+
+button:hover i {
+	color: rgb(37, 43, 54);
+}
+
+button:focus i {
+	color: rgb(37, 43, 54);
+}
+
+.btn-interno-eliminar:hover i {
+	color: rgba(156, 8, 8, 1);
+}
+
+.navbar-nav .active i {
+	color: rgb(37, 43, 54);
+}
+
+.mostrarContra:focus {
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.form-control:focus {
+	border-color: rgb(37, 43, 54);
+	box-shadow: 0px 0px 5px 5px rgba(37, 43, 54, 0.5);
+}
+
+.btn:focus {
+	border-color: rgb(37, 43, 54);
+	box-shadow: 0px 0px 5px 5px rgba(37, 43, 54, 0.5);
+}
+
+.bt-grp {
+	margin: 0rem auto;
+}
+
+.btn-ingresar {
+	background: rgb(37, 43, 54);
+	color: rgb(237, 240, 246);
+	border: 1px solid rgb(37, 43, 54);
+	width: 100%;
+}
+
+.btn-ingresar:hover {
+	color: rgb(37, 43, 54);
+	background: rgb(237, 240, 246);
+}
+
+.alert {
+	text-align: center;
+	font-size: 0.75rem;
+	padding: 0.5rem 0rem;
+}
+
+.mensaje {
+	margin: 0rem auto 0rem; /*margin: 0rem auto 0rem;*/
+}
+
+.navbar-expand-lg {
+	padding: 0rem;
+	text-align: center;
+}
+
+.navbar-toggler {
+	width: 100%;
+	height: 100%;
+	border-bottom: 1px solid rgb(237, 240, 246);
+	border-radius: 0rem;
+	padding-top: 0.5rem;
+}
+
+.navbar-toggler:focus {
+	box-shadow: 0 0 0 0rem;
+}
+
+.navbar-toggler-icon {
+	color: rgb(237, 240, 246);
+	height: 100%;
+	width: auto;
+}
+
+.navbar-nav {
+	position: absolute;
+	right: 0rem;
+}
+
+.navbar-nav a {
+	background: rgb(37, 43, 54);
+	color: rgb(237, 240, 246);
+}
+
+.navbar-nav .active {
+	color: rgb(37, 43, 54);
+	background: rgb(237, 240, 246);
+}
+
+.navbar-nav a:hover {
+	color: rgb(37, 43, 54);
+	background: rgb(237, 240, 246);
+}
+
+.navbar-nav a:focus {
+	color: rgb(37, 43, 54);
+	background: rgb(237, 240, 246);
+}
+
+.nav-item .opcPerfil {
+	padding: 0rem;
+}
+
+.opcAcc {
+	display: none;
+}
+
+.opcAccDrop {
+	display: initial;
+}
+
+.a-superior {
+	border-top-left-radius: 0.25rem;
+	border-top-right-radius: 0.25rem;
+}
+
+.a-inferior {
+	border-bottom-left-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
+}
+
+.a-ambos {
+	border-radius: 0.25rem;
+}
+
+.nav-item .opcPerfil li:nth-child(1) a {
+	border-top-left-radius: 0.25rem;
+	border-top-right-radius: 0.25rem;
+}
+
+.nav-item .opcPerfil li:nth-last-child(1) a {
+	border-bottom-left-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
+}
+
+#menPerfil {
+	min-width: 11rem;
+}
+
+#panPrincipal {
+	margin: 0rem auto 2rem;
+	padding: 1rem;
+}
+
+th {
+	text-align: center;
+}
+
+td {
+	text-align: center;
+}
+
+.btn-interno {
+	background: rgb(37, 43, 54);
+	color: rgb(237, 240, 246);
+	border: 1px solid rgb(37, 43, 54);
+	width: 100%;
+	font-size: 1.25rem;
+}
+
+.btn-interno:hover {
+	color: rgb(37, 43, 54);
+	background: rgb(237, 240, 246);
+}
+
+.btn-interno-2 {
+	background: rgb(37, 43, 54);
+	color: rgb(237, 240, 246);
+	border: 1px solid rgb(37, 43, 54);
+	width: 100%;
+	font-size: 1rem;
+}
+
+.btn-interno-2:hover {
+	color: rgb(37, 43, 54);
+	background: rgb(237, 240, 246);
+}
+
+.btn-interno-eliminar {
+	background: rgba(156, 8, 8, 1);
+	color: rgb(237, 240, 246);
+	border: 1px solid rgba(156, 8, 8, 1);
+	width: 100%;
+	font-size: 1.25rem;
+}
+
+.btn-interno-eliminar:hover {
+	color: rgb(33, 37, 41);
+	background: rgb(237, 240, 246);
+}
+
+.btn-eliminar {
+	background: rgba(156, 8, 8, 1);
+	color: rgb(237, 240, 246);
+	border: 1px solid rgba(156, 8, 8, 1);
+	border-radius: 0.25rem;
+	padding: 0.4rem;
+	text-decoration: none;
+}
+
+.btn-eliminar:hover {
+	color: rgba(156, 8, 8, 1);
+	background: rgb(237, 240, 246);
+}
+
+#opcInterdrop {
+	font-size: 1.25rem;
+}
+
+.opcOtrAcciones {
+	z-index: 1;
+	padding: 0rem;
+}
+
+.opcOtrAcciones a {
+	font-size: 1rem;
+}
+
+.btn-regresar {
+	background: rgb(37, 43, 54);
+	color: rgb(237, 240, 246);
+	border: 1px solid rgb(37, 43, 54);
+	float: right;
+	height: 2.3rem;
+	border-bottom-left-radius: 0rem;
+	border-top-left-radius: 0rem;
+}
+
+.btn-regresar:hover {
+	color: rgb(37, 43, 54);
+	background: rgb(237, 240, 246);
+}
+
+.inpform {
+	margin-bottom: 1rem;
+}
+
+.grp-form {
+	margin: 0rem auto;
+}
+
+.grp-buscar {
+	margin: 1rem 0rem 0rem;
+}
+
+.btn-guardar {
+	background: rgb(37, 43, 54);
+	color: rgb(237, 240, 246);
+	border: 1px solid rgb(37, 43, 54);
+	margin: 1rem 0rem;
+	width: 100%;
+}
+
+#drp {
+	width: 2rem !important;
+	border-left: 1px solid rgb(237, 240, 246);
+}
+
+.btn-guardar:hover {
+	color: rgb(37, 43, 54);
+	background: rgb(237, 240, 246);
+}
+
+#dmbAcciones {
+	background: rgb(37, 43, 54);
+	color: rgb(237, 240, 246);
+	border: 1px solid rgb(37, 43, 54);
+}
+
+#dmbAcciones:hover {
+	color: rgb(37, 43, 54);
+	background: rgb(237, 240, 246);
+}
+
+.hide {
+	display: none;
+}
+
+.mdcentrado {
+	text-align: center;
+}
+
+.btn-mini a {
+	text-align: center;
+}
+
+.menuInv {
+	height: auto;
+	margin: 0.5rem auto;
+}
+
+.menuInv a {
+	text-decoration: none;
+}
+
+.menuInv a .iconmen {
+	width: 100%;
+	border-top-left-radius: 0.25rem;
+	border-top-right-radius: 0.25rem;
+	text-align: center;
+	background: rgb(37, 43, 54);
+	border: 1px solid rgb(37, 43, 54);
+	border-bottom: none;
+}
+
+.menuInv a .iconmen i {
+	font-size: 5rem;
+}
+
+.menuInv a .pmen {
+	background: rgb(37, 43, 54);
+	margin: 0rem;
+	padding: 1rem 0rem 0.15rem;
+	border-bottom-left-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
+	border: 1px solid rgb(37, 43, 54);
+	border-top: none;
+}
+
+.menuInv a .pmen p {
+	line-height: 1rem;
+	text-align: center;
+	color: rgb(237, 240, 246);
+	padding: 0rem 0.25rem;
+}
+
+.menuInv:hover a .iconmen {
+	background: rgb(237, 240, 246);
+}
+
+.menuInv:hover a .iconmen i {
+	color: rgb(37, 43, 54);
+}
+
+.menuInv:hover a .pmen {
+	background: rgb(237, 240, 246);
+}
+
+.menuInv:hover a .pmen p {
+	color: rgb(37, 43, 54);
+}
+
+.menuInv:active a .iconmen {
+	background: rgb(237, 240, 246);
+}
+
+.menuInv:active a .iconmen i {
+	color: rgb(37, 43, 54);
+}
+
+.menuInv:active a .pmen {
+	background: rgb(237, 240, 246);
+}
+
+.menuInv:active a .pmen p {
+	color: rgb(37, 43, 54);
+}
+
+thead tr th {
+	font-size: 1rem;
+}
+
+tbody tr td {
+	font-size: 0.9rem;
+}
+
+.contmenInv {
+	margin: 2% auto 0rem;
+}
+
+form {
+	margin: 0rem auto;
+}
+
+#accdProducts {
+	margin: 0rem auto 1rem;
+}
+
+.accordion-header .accordion-button {
+	background: rgb(37, 43, 54);
+	color: rgb(237, 240, 246);
+	border: 1px solid rgb(37, 43, 54);
+	border-radius: 0rem !important;
+}
+
+.accordion-header .accordion-button:hover {
+	color: rgb(37, 43, 54);
+	background: rgb(237, 240, 246);
+}
+
+.accordion-header .accordion-button i.plusi {
+	margin-right: 1rem;
+}
+
+.accordion-header .accordion-button:not(.collapsed) .despag {
+	display: none;
+}
+
+.accordion-header .collapsed .despag {
+	display: inherit;
+	color: rgb(237, 240, 246);
+	margin-left: 0.25rem;
+}
+
+.accordion-header .collapsed:hover .despag {
+	color: rgb(37, 43, 54);
+}
+
+.accordion-header .accordion-button:not(.collapsed) {
+	border-color: rgb(37, 43, 54);
+	box-shadow: 0px 0px 5px 5px rgba(37, 43, 54, 0.5);
+}
+
+.accordion-header .accordion-button:focus {
+	border-color: rgb(37, 43, 54);
+	box-shadow: 0px 0px 5px 5px rgba(37, 43, 54, 0.5);
+}
+
+.accordion-header .accordion-button:after {
+	display: none;
+}
+
+.accordion-body {
+	background: rgb(237, 240, 246);
+	border: 1px solid rgb(37, 43, 54);
+}
+
+.menuInv a .pmen p i {
+	display: none;
+}
+
+.otguardar {
+	padding: 0rem;
+	background: rgb(37, 43, 54);
+}
+
+.otguardar li button {
+	color: rgb(237, 240, 246);
+}
+
+.otguardar:hover {
+	background: rgb(237, 240, 246);
+}
+
+.otguardar:hover li button {
+	color: rgb(37, 43, 54);
+}
+
+.otguardar:active li button {
+	background: rgb(237, 240, 246);
+	color: rgb(37, 43, 54);
+	border-color: rgb(37, 43, 54);
+	box-shadow: 0px 0px 5px 5px rgba(37, 43, 54, 0.5);
+}
+
+.dtfecha {
+	height: 2.25rem;
+	text-align: center;
+	width: 100%;
+}
+
+.lblhasta {
+	padding-top: 0.5rem;
+	text-align: center;
+}
+
+.containTable {
+	padding: 0rem 0.75rem 3rem;
+	overflow-x: auto;
+	margin: 0rem auto;
+}
+
+.containTable_Min {
+	padding: 0rem 0.75rem 0rem;
+	overflow-x: auto;
+	margin: 0rem auto;
+}
+
+.duplex {
+	border: 1px solid rgb(37, 43, 54);
+}
+
+.duplex-eliminar {
+	border: 1px solid rgba(156, 8, 8, 1);
+	background: rgba(156, 8, 8, 1);
+}
+
+.duplex-eliminar:hover {
+	color: rgba(156, 8, 8, 1);
+}
+
+#cursiva {
+	font-style: italic;
+	color: rgb(37, 43, 54);
+}
+
+.ainvent {
+	color: rgb(37, 43, 54);
+	text-decoration: none;
+}
+
+.ainvent i {
+	color: rgb(37, 43, 54);
+}
+
+.ainvent:hover {
+	color: rgb(73, 104, 162);
+	text-decoration: underline;
+}
+
+.ainvent:hover i {
+	color: rgb(73, 104, 162);
+	text-decoration: underline;
+}
+
+.aloneopc {
+	font-size: 1.15rem;
+	color: rgb(37, 43, 54);
+	text-decoration: none;
+}
+
+.aloneopc i {
+	font-size: 1.15rem;
+	color: rgb(37, 43, 54);
+}
+
+.aloneopc:hover {
+	color: rgb(73, 104, 162);
+}
+
+.aloneopc:hover i {
+	color: rgb(73, 104, 162);
+}
+
+.aloneopc-delete {
+	font-size: 1.15rem;
+	color: rgba(156, 8, 8, 1);
+	text-decoration: none;
+}
+
+.aloneopc-delete i {
+	font-size: 1.15rem;
+	color: rgba(156, 8, 8, 1);
+}
+
+.aloneopc-delete:hover {
+	color: rgba(166, 10, 10, 1);
+}
+
+.aloneopc-delete:hover i {
+	color: rgba(166, 10, 10, 1);
+}
+
+#divInv {
+	margin: 0rem auto;
+	background: rgb(237, 240, 246);
+	border: 1px solid rgb(37, 43, 54);
+	border-radius: 0.25rem;
+	padding: 1rem;
+	margin-bottom: 3rem;
+}
+
+.titproduct {
+	font-size: 1.5rem;
+}
+
+#ingfin1 {
+	display: none;
+}
+
+#ingfin2 {
+	display: inherit;
+	margin-bottom: 1rem;
+}
+
+#ingfin3 {
+	display: inherit;
+}
+
+.checkinv {
+	border: 1px solid rgb(37, 43, 54);
+	
+}
+
+.center {
+	text-align: center;
+}
+
+.oculto {
+	display: none;
+}
+
+.btn-agregar {
+	text-decoration: none;
+}
+
+.btn-agregar div {
+	background: rgb(19, 120, 42);
+	color: rgb(237, 240, 246);
+	border: 1px solid rgb(19, 120, 42);
+	border-radius: 0.25rem;
+	padding: 0.25rem;
+	font-weight: normal;
+	font-size: 1.15rem;
+}
+
+.btn-agregar:hover div {
+	color: rgb(19, 120, 42);
+	background: rgb(237, 240, 246);
+}
+
+.btn-agregar:hover div i {
+	color: rgb(19, 120, 42);
+}
+
+.btn-agregar:focus div i {
+	color: rgb(19, 120, 42);
+}
+
+.btn-agregar:active div i {
+	color: rgb(19, 120, 42);
+}
+
+.divcentrado {
+	margin: 0rem auto;
+}
+
+.bbig {
+	font-size: 1.25rem;
+}
+
+#toast-container {
+	opacity: 1;
+}
+
+#toast-container>div {
+	opacity: 1;
+}
+
+.toast-title {
+	color: rgb(237, 240, 246);
+}
+
+.toast-message {
+	color: rgb(237, 240, 246);
+}
+
+.margsup {
+	margin-top: 1rem;	
+}
+
+.marginf{
+	margin-bottom: 0.25rem;
+}
+
+.margabajo{
+	margin-bottom: 1rem;
+}
+
+.dataTables_length {
+	display: none;
+}
+
+.dataTables_filter {
+	display: none;
+}
+
+.pagination {
+	z-index: -1;	
+}
+
+.page-item.active {
+	background: rgb(37, 43, 54);	
+}
+
+.page-item.active .page-link {
+	z-index: 0;
+	color: rgb(255, 255, 255);
+	background: rgb(37, 43, 54);
+	border-color: rgb(37, 43, 54);
+}
+
+.page-item:not(.active):hover .page-link {
+	color: rgb(60, 69, 87);
+}
+
+.page-link:focus{
+	border-color: rgb(37, 43, 54);
+	box-shadow: 0px 0px 5px 5px rgba(37, 43, 54, 0.5);
+}
+
+.page-link {
+	color: rgb(37, 43, 54);
+}
+
+.chckconjunto {
+	margin: 0rem auto;
+}
+
+.margliz {
+	margin-left: 0.5rem;
+}
+
+.areporte {
+	margin-top: 0.1rem;	
+}
+
+.reportcontent {
+	height: 100%;
+	width: 100%;
+}
+
+.select2 {
+	width: 100% !important;
+	margin: 0.1rem 0rem 0.1rem 0rem;
+}
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+	background-color: rgb(47, 57, 69, 1) !important;
+}
+
+.forminit {
+	position: absolute;
+	right: 0;
+	margin-right: 1rem;
+}
+
+.marginf-ret {
+	margin-bottom: 3rem !important;
+}
+
+.puntero {
+	cursor: pointer;
+}
+
+
+.searchdev {
+	padding: 0rem !important;
+}
+
+.quitarlista {
+	list-style: none;
+}
+
+.grfAccesorios {
+	height: auto;
+	width: 90%;	
+}
+
+.containergraf {
+	display: inline;
+}
+
+.containergraftable {
+	display: none;
+	margin: 0rem auto;
+}
+
+.containerbitatable {
+	margin: 0rem auto;
+	margin-top: 2rem;
+}
+
+.titledash {
+	text-align: center;
+	font-size: 1.25rem;
+}
+
+.bootbox button.bootbox-close-button {
+	display: none;
+}
+
+.bootbox-body {
+	font-size: 1.5rem;
+}
+
+.bootbox-btn-yes, .bootbox-btn-no {
+	width: 25%;
+	color: white !important;
+}
+
+.bootbox-btn-yes:hover i, .bootbox-btn-no:hover i {
+	color: white !important;
+}
+
+.bootbox-btn-yes:focus i, .bootbox-btn-no:focus i {
+	color: white !important;
+}
+
+.cerrar {
+	float: right;
+	margin-left: 1rem;
+}
+
+.cerrar a i {
+	color: rgb(148, 150, 154);
+	font-size: 1rem;
+	
+}
+
+.cerrar a:hover i {
+	color: rgb(33, 37, 41);
+}
+
+.explicacion {
+	font-size: 0.95;
+	text-align: justify;
+}
+
+.explicacion-centrada {
+	font-size: 0.95;
+	text-align: center;
+}
+
+.iconmenu {
+	font-size: 1.05rem;
+}
+
+.titledash a {
+	color: rgb(37, 43, 54);
+	font-size: 1.15rem;
+}
+
+.infvis i {
+	color: rgb(37, 43, 54);
+}
+
+.btnbordeizq {
+	border-left-color: rgb(237, 240, 246);
+}
+
+.disabled a .itabla {
+	color: rgb(148, 150, 154) !important;	
+}
+
+a .itabla {
+	color: rgb(37, 43, 54);	
+}
+
+.btngroupdash {
+	margin: 0rem auto;
+	margin-bottom: 1rem;
+	padding: 0rem 2rem 1rem;
+}
+
+.titdash {
+	text-align: center;
+	font-size: 1.25rem;
+	margin-bottom: 0rem;
+}
+
+.btngroupdash .menuInv a .iconmen i {
+	font-size: 2rem;
+}
+
+.expli {
+	margin: 1rem auto;
+}
+
+.expli p {
+	margin: 0rem auto;
+	width: 95%;
+	text-align: center;
+}
+
+.expli-just {
+	margin: 1rem auto;
+}
+
+.expli-just p {
+	margin: 0rem auto;
+	width: 95%;
+	text-align: justify;
+}
+
+.tableheader tr th {
+	background: rgb(105, 74, 27);/*rgb(85, 74, 58)*/
+	color: rgb(255, 255, 255) !important;
+	text-align: center;
+}
+
+.btnclean-a {
+	margin-right: 0.1rem;
+}
+
+.btnclean-b {
+	margin-left: 0.1rem;
+}
+
+.btnclean-bsup {
+	margin-top: 0.1rem;
+}
+
+table.dataTable.table-sm > thead > tr > th:not(.sorting_disabled) {
+	padding-right: 0.25rem !important;
+}
+
+@media only screen and (max-width: 1200px) {
+	.navbar-collapse .logo-s {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.containergraf {
+		display: none;
+	}
+	.containergraftable {
+		display: inline;
+	}
+	.navbar-nav {
+		position: inherit;
+	}
+	.nav-item .opcPerfil li:nth-child(1) a {
+		border-top-left-radius: 0.25rem;
+		border-top-right-radius: 0.25rem;
+	}
+	.opcAcc {
+		display: initial;
+	}
+	.opcAccDrop {
+		display: none;
+	}
+	.menActive {
+		padding: 0rem;
+	}
+	.subencab {
+		display: none;
+	}
+	.lblhasta {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#divInv {
+		margin-bottom: 0rem;
+	}
+	.margsup-min {
+		margin-top: 1rem;	
+	}
+	.btn-regresar {
+		display: none;
+	}
+	.lblbuscar {
+		display: none;
+	}
+	.grp-buscar input {
+		margin-bottom: 1rem;
+	}
+	#ingfin1 {
+		display: inherit;
+	}
+	#ingfin2 {
+		display: none;
+	}
+	#ingfin3 {
+		display: none;
+	}
+	.retirarinf {
+		margin-top: 1rem;
+	}
+	.accionbit {
+		padding-bottom: 1rem;
+	}
+	.forminit {
+		position: relative;
+	}
+	.marginf-ret {
+		margin-bottom: 0rem !important;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.menuInv a .iconmen {
+		display: none;
+	}
+	.menuInv a .pmen {
+		border-top-left-radius: 0.25rem;
+		border-top-right-radius: 0.25rem;
+	}
+	.menuInv a .pmen p i {
+		display: inline;
+	}
+	.menuInv:nth-child(5) a .pmen {
+		height: 4rem;
+	}
+	.btnsp {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 373px) {
+	.wbody {
+		margin-bottom: 3.5rem;
+	}
+	#panPrincipal {
+		margin-bottom: 5rem;
+	}
+}
